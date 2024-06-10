@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <main class="d-flex justify-content-center align-items-center">
+
+        <div class="container py-5 text-center">
+            <div class="login w-50 m-auto p-5">
+                <h1>Smart Login System</h1>
+                <input id="email" type="text" class="form-control my-3" placeholder="Enter your email">
+                <input id="password" type="password" class="form-control my-3" placeholder="Entre your password">
+                <p id="incorrect" class="p-2 text-danger d-none">incorrect email or password</p>
+                <p id="warningMsg" class="text-danger m-3 d-none">All inputs is required</p>
+                <button class="login-btn btn btn-outline-info w-100 my-3">Login</button>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

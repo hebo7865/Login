@@ -1,0 +1,52 @@
+main
+{
+    background-image: linear-gradient(0deg, #06141b, #11212d, #253745, #4a5c6a, #9ba8ab);
+    height: 100vh;
+}
+
+.main
+{
+    height: 100vh;
+}
+
+.login{
+    background-color: #06141b;
+    box-shadow: 0 0 5px #4a5c6a;
+    color: #ccd0cf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar
+{
+    box-shadow: 0 10px 15px #11212d;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.logo
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #ccd0cf;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #0dcaf0;
+}
+
+.welcome-msg
+{
+    background-color: #06141b;
+    box-shadow: 0 0 10px #4a5c6a;
+    color: #ccd0cf;
+}
